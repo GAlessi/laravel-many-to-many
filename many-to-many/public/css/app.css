@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container header,
+.container footer {
+  height: 50px;
+  background-color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container main {
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.container main .employee {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.container main .employee ul {
+  list-style: circle;
+}
+
+.container main .employee ul .tasks {
+  font-weight: normal;
+  margin-left: 30px;
+}
+
